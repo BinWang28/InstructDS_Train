@@ -1,5 +1,8 @@
-# InstructDS (Train, Eval)
-EMNLP 2023: Instructive Dialogue Summarization with Query Aggregations
+# InstructDS: Instructive Dialogue Summarization with Query Aggregations
+
+This is the repo for **[EMNLP 2023 Dialogue Summarization Work](https://arxiv.org/abs/2310.10981)**
+
+This part is for `TRAIN` and `EVAL`. The demo part can be found at: [InstructDS](https://github.com/BinWang28/InstructDS)
 
 
 # Requirements
