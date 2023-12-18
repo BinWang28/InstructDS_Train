@@ -1,0 +1,11 @@
+fire
+torch
+transformers==4.29.2
+sentencepiece
+accelerate
+datasets
+git+https://github.com/huggingface/peft.git@e536616888d51b453ed354a6f1e243fecb02ea08
+protobuf==3.19.0
+rouge-score
+py-rouge
+bert-score

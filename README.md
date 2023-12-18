@@ -1,9 +1,27 @@
 # InstructDS: Instructive Dialogue Summarization with Query Aggregations
 
-This is the repo for **[EMNLP 2023 Dialogue Summarization Work](https://arxiv.org/abs/2310.10981)**
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
+[![arxiv](https://img.shields.io/badge/arXiv-2310.10981-b31b1b.svg)](https://arxiv.org/abs/2310.10981)
+[![ACL](https://img.shields.io/badge/ACL-Anthology-b38d1b.svg)](https://aclanthology.org/2023.emnlp-main.474/)
 
-This part is for `TRAIN` and `EVAL`. The demo part can be found at: [InstructDS](https://github.com/BinWang28/InstructDS)
+[\[**EMNLP 2023 Slides**\]](content/EMNLP2023-InstructDS.pdf), 
+[\[**Paper**\]](https://arxiv.org/abs/2310.10981), 
+[\[**Training and Evaluation Code**\]](https://github.com/BinWang28/InstructDS_Train), 
+[\[**Poster**\]](content/poster.pdf), 
+[\[**Dataset**\]](https://huggingface.co/datasets/binwang/InstructDS_datasets)
 
+Dialogue summarization framework described in the paper [Instructive Dialogue Summarization with Query Aggregations](https://arxiv.org/abs/2310.10981) (EMNLP 2023). This part is for `training and evaluation`. The demo part can be found at: [InstructDS](https://github.com/BinWang28/InstructDS)
+
+
+<p align="center">
+  <img src="content/dialogue_summarization.png" width="250">
+</p>
+
+# Framework
+
+<p align="center">
+<img src="content/framework.png" width="700">
+</p>
 
 # Requirements
 
@@ -16,10 +34,16 @@ pip install -r requirements.txt
 
 # Training
 
+```
+bash train.sh
+```
 
 
 # Evaluation
 
+```
+bash evaluation.sh
+```
 
 
 
